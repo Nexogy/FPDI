@@ -10,6 +10,8 @@
 
 namespace FPDI;
 
+use PDF\FPDF;
+
 /**
  * This file is used as a bridge between TCPDF or FPDF
  * It will dynamically create the class extending the available
