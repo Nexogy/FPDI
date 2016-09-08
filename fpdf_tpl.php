@@ -8,7 +8,14 @@
  * @version   1.6.1
  */
 
-if (!class_exists('fpdi_bridge')) {
+
+namespace FPDI;
+
+use \Exception;
+use \LogicException;
+use \InvalidArgumentException;
+
+if (!class_exists('\\FPDI\\fpdi_bridge')) {
     require_once('fpdi_bridge.php');
 }
 

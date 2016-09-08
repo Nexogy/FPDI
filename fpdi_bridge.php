@@ -8,6 +8,8 @@
  * @version   1.6.1
  */
 
+namespace FPDI;
+
 /**
  * This file is used as a bridge between TCPDF or FPDF
  * It will dynamically create the class extending the available
@@ -16,7 +18,7 @@
  * This way it is possible to use FPDI for both FPDF and TCPDF with one FPDI version.
  */
 
-if (!class_exists('TCPDF', false)) {
+if (!class_exists('\\FPDI\\TCPDF', false)) {
     /**
      * Class fpdi_bridge
      */

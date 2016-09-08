@@ -8,7 +8,12 @@
  * @version   1.6.1
  */
 
-if (!class_exists('pdf_parser')) {
+namespace FPDI;
+
+use \Exception;
+use \InvalidArgumentException;
+
+if (!class_exists('\\FPDI\\pdf_parser')) {
     require_once('pdf_parser.php');
 }
 

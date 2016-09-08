@@ -8,6 +8,10 @@
  * @version   1.6.1
  */
 
+namespace FPDI;
+
+use \Exception;
+use \LogicException;
 /**
  * Class FilterASCII85
  */

@@ -8,7 +8,13 @@
  * @version   1.6.1
  */
 
-if (!class_exists('FPDF_TPL')) {
+namespace FPDI;
+
+use \Exception;
+use \LogicException;
+use \InvalidArgumentException;
+
+if (!class_exists('\\FPDI\\FPDF_TPL')) {
     require_once('fpdf_tpl.php');
 }
 

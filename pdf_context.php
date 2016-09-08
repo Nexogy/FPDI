@@ -7,7 +7,7 @@
  * @license   http://opensource.org/licenses/mit-license The MIT License
  * @version   1.6.1
  */
-
+namespace FPDI;
 /**
  * Class pdf_context
  */
